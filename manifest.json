@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "author": "waelmas",
+    "name": "Dark Mode for TryHackMe",
+    "description": "Transform TryHackMe rooms into a sleek, dark theme, reducing eye strain and improving readability during long study sessions.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["*://*.tryhackme.com/room/*"],
+            "js": ["rooms.js"]
+        },
+        {
+            "matches": ["*://*.tryhackme.com/paths"],
+            "js": ["paths.js"]
+        }
+    ],
+    "icons": {
+        "128": "icon128.png"
+    }
+}
