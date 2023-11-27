@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TryHackMe Dark Mode Popup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="banner-img">
+            <img src="banner-gapless.png" alt="TryHackMe Dark Mode Logo">
+        </div>
+    </div>
+
+    <p class="intro-text">Welcome to TryHackMe Dark Mode!</p>
+    <hr class="mb-15"></hr>
+
+    <div class="features">
+        Enable Dark Mode on:
+        <div class="feature-item">
+            <span>Rooms</span>
+            <button class="toggle-button" id="room">OFF</button>
+        </div>
+        <div class="feature-item">
+            <span>Learning Paths</span>
+            <button class="toggle-button" id="paths">OFF</button>
+        </div>
+    </div>
+
+    <div class="save-button">
+        <button id="save-preferences">Save</button>
+    </div>
+    <p class="sub-message"><span><a href="https://github.com/waelmas/tryhackme-dark-mode" target="_blank">Github</a></span> || <span><a href="https://linkedin.com/in/waelmas" target="_blank">LinkedIn</a></span> || <span><a href="https://innaton.com/" target="_blank">Website</a></span></p>
+    <div id="notification" class="notification"></div>
+    <script src="popup.js"></script>
+</body>
+</html>

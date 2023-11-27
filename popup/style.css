@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #EAEAEA;
+    background-color: #202123;
+    width: 309px;
+    margin: 12px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo img, .banner-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-img {
+    margin-bottom: 0px;
+    padding: 12px 12px 0px 12px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #bb131a;
+}
+
+hr {
+    border: 1px solid #f5f5f50a;
+}
+
+hr.mb-15 {
+    margin-bottom: 15px;
+}
+
+
+.intro-text, 
+.features {
+    margin-bottom: 18px;
+    margin-right: 15px;
+    font-weight: bold;
+    color: #EAEAEA;
+}
+
+
+.intro-text {
+    font-size: 16px;
+}
+
+.features {
+    font-size: 14px;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px;
+    margin-left: 21px;
+    padding: 5px 15px;
+    width: 69%;
+    background: #292929;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #1a1a1a, 0px 0px 0px #2a2a2a;
+}
+
+.toggle-button {
+    display: inline-block;
+    border: none;
+    margin-left: 5px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: #2C2C2C;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 3px 3px 6px #1a1a1a, -3px -3px 6px #2a2a2a;
+    outline: none;
+}
+
+.toggle-button.active {
+    background-color: #bb131a;
+    color: #fff;
+    box-shadow: none;
+}
+
+.toggle-button:active {
+    transform: scale(0.95);
+}
+
+#save-preferences {
+    width: 100%;
+    background-color: #bb131a;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 5px 5px 15px #1a1a1a, -5px -5px 15px #2a2a2a;
+}
+
+#save-preferences:hover {
+    background-color: #FF4B4B;
+}
+
+#save-preferences:active {
+    transform: scale(0.95);
+}
+
+.notification {
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.notification.error {
+    background-color: #e57373;
+    color: #fff;
+}
+
+.notification.success {
+    background-color: #2c8830;
+    color: #fff;
+}
+
+
+.sub-message {
+    text-align: center;
+}
+.sub-message a {
+    color: #bb3a3f;
+    margin: 0px 3px;
+}

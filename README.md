@@ -2,5 +2,9 @@
 
 A simple browser extension to transform TryHackMe rooms into a sleek, dark theme, reducing eye strain and improving readability during long study sessions.
 
-Note:
-This was created in ~30 mins, so feel free to report issues or suggest improvements.
+
+Installation Link:
+[https://chromewebstore.google.com/detail/dark-mode-for-tryhackme/aheaidmpdognkkmllipnnjgkkomeafle](https://chromewebstore.google.com/detail/dark-mode-for-tryhackme/aheaidmpdognkkmllipnnjgkkomeafle)
+
+
+Feel free to report issues or suggest improvements.
